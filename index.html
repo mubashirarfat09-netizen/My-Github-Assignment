@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050608">
+  <title>OBSIDIAN — Automotive Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1><p>This is my updated GitHub assignment.</p>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="scanline"></div>
+  <header class="site-header">
+    <a class="logo" href="#home"><span class="logo-icon">O</span><span>OBSIDIAN<small>AUTOMOTIVE EXPERIENCE</small></span></a>
+    <nav class="main-nav">
+      <a class="active" href="#home">HOME</a><a href="#garage">THE GARAGE</a><a href="#about">EXPERIENCE</a>
+    </nav>
+    <a class="header-cta" href="#garage">EXPLORE FLEET <span>↗</span></a>
+  </header>
 
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="status"><i></i> PRIVATE MOTOR COLLECTION <span>•</span> EST. 2026</div>
+        <p class="kicker">ENGINEERED TO MAKE AN ENTRANCE</p>
+        <h1>BEYOND<br>THE <span>DRIVE.</span></h1>
+        <p class="hero-description">Not just machines. Masterpieces of power, precision and presence. Enter a world where every detail has a purpose.</p>
+        <div class="hero-buttons"><a class="btn-primary" href="#garage">EXPLORE THE GARAGE <b>↗</b></a><a class="btn-ghost" href="#about"><span class="play">▶</span> DISCOVER OBSIDIAN</a></div>
+        <div class="hero-metrics"><div><strong>07</strong><span>LEGENDARY<br>MACHINES</span></div><div class="metric-line"></div><div><strong>∞</strong><span>PURE<br>ADRENALINE</span></div><div class="metric-line"></div><div><strong>01</strong><span>ICONIC<br>DESTINATION</span></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-glow"></div>
+        <div class="hero-car-image"></div>
+        <div class="hero-outline"></div>
+        <div class="hero-side-label">POWER / DESIGN / PERFORMANCE</div>
+        <div class="hero-caption"><span>01 — THE ART OF SPEED</span><b>MAKE EVERY SECOND COUNT.</b></div>
+        <div class="hero-index">O<span>1</span></div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="ticker" aria-label="Brand names"><div class="ticker-track"><span>BMW M</span><i>✳</i><span>PORSCHE</span><i>✳</i><span>DODGE</span><i>✳</i><span>FERRARI</span><i>✳</i><span>MERCEDES</span><i>✳</i><span>JAGUAR</span><i>✳</i><span>G-CLASS</span><i>✳</i><span>BMW M</span><i>✳</i><span>PORSCHE</span><i>✳</i></div></section>
+
+    <section class="garage section" id="garage">
+      <div class="section-top">
+        <div><div class="section-label"><span>01</span> / THE COLLECTION</div><h2>THE <em>GARAGE.</em></h2></div>
+        <p>Seven automotive icons. Each with its own attitude. Choose your legend.</p>
+      </div>
+      <div class="filter-row"><span class="filter-active">ALL MACHINES <b>07</b></span><span>PERFORMANCE</span><span>LUXURY</span><span>OFF-ROAD</span><div class="filter-line"></div><small>CURATED SELECTION / 2026</small></div>
+      <div class="car-grid">
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=88" alt="BMW performance car"><span class="card-number">01</span><span class="card-type">M PERFORMANCE</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">GERMAN ENGINEERING</span><h3>BMW <em>M SERIES</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>PRECISION • POWER • CONTROL</span><span>01 / 07</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=88" alt="Porsche 911 sports car"><span class="card-number">02</span><span class="card-type">ICONIC SPORTS</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">STUTTGART • GERMANY</span><h3>PORSCHE <em>911</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>TIMELESS • ICONIC • PURE</span><span>02 / 07</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=88" alt="Dodge Challenger muscle car"><span class="card-number">03</span><span class="card-type">CLASSIC MUSCLE</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">AMERICAN MUSCLE</span><h3>DODGE <em>CHALLENGER</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>RAW V8 • OLD-SCHOOL SOUL</span><span>03 / 07</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1200&q=88" alt="Ferrari supercar"><span class="card-number">04</span><span class="card-type">ITALIAN EXOTIC</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">MARANELLO • ITALY</span><h3><em>FERRARI</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>RACING DNA • PASSION</span><span>04 / 07</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=88" alt="Mercedes-Benz luxury car"><span class="card-number">05</span><span class="card-type">LUXURY CLASS</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">STUTTGART • GERMANY</span><h3>MERCEDES-<em>BENZ</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>COMFORT • INNOVATION</span><span>05 / 07</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=88" alt="Jaguar performance vehicle"><span class="card-number">06</span><span class="card-type">BRITISH LUXURY</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">COVENTRY • ENGLAND</span><h3><em>JAGUAR</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>GRACE • SPACE • PACE</span><span>06 / 07</span></div>
+        </article>
+        <article class="car-card wide-card">
+          <div class="car-image"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1500&q=88" alt="Mercedes G-Class G-Wagon SUV"><span class="card-number">07</span><span class="card-type">THE ICONIC SUV</span><span class="image-corner">↗</span></div>
+          <div class="car-details"><div><span class="make">BUILT TO LEAD</span><h3>G-CLASS <em>/ G-WAGON</em></h3></div><span class="card-arrow">↗</span></div><div class="card-footer"><span>COMMANDING • CAPABLE • ICONIC</span><span>07 / 07</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature" id="about">
+      <div class="feature-image"></div>
+      <div class="feature-content"><div class="section-label"><span>02</span> / THE OBSIDIAN STANDARD</div><h2>DESIGNED<br>TO <em>MOVE YOU.</em></h2><p>From the first glance to the first ignition, the details make the difference. Welcome to a collection built around bold design and unforgettable driving experiences.</p><a class="btn-primary" href="#garage">FIND YOUR MACHINE <b>↗</b></a></div>
+      <div class="feature-watermark">OBSIDIAN</div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home"><span class="logo-icon">O</span><span>OBSIDIAN<small>AUTOMOTIVE EXPERIENCE</small></span></a><span>© 2026 OBSIDIAN MOTOR CLUB</span><span>BUILT FOR THE BOLD. <b>↗</b></span></footer>
 </body>
 </html>
